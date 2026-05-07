@@ -1,0 +1,31 @@
+# Generated outputs (huge, recreated each run)
+renders/
+stock/
+audio/
+segments/
+*.mp4
+*.mp3
+*.wav
+
+# Old/leftover assets from earlier pipeline versions (no longer used by daily.py)
+hook_samples/
+hooks/
+preview-v2/
+hook_*.png
+cam_*.jpg
+preview*.png
+
+# Backups & logs
+*.bak
+*.log
+__pycache__/
+*.pyc
+
+# Local-only secrets — pushed to GitHub Secrets instead
+credentials/client_secrets.json
+credentials/token.json
+credentials/pexels.key
+
+# OS junk
+.DS_Store
+Thumbs.db
